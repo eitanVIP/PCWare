@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="PCWare.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+
+    <link href="Styles/MainStyle.css" rel="stylesheet" />
+    <link href="Styles/TopStyle.css" rel="stylesheet" />
+    <link href="Styles/Links.css" rel="stylesheet" />
+    <link href="Styles/Images.css" rel="stylesheet" />
+    <link href="Styles/Forms.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="MainNav Nav">
+        <li class="Space"></li>
+        <li class="Title"><a href="MainPage.aspx"><img src="../Images/PCWare Logo 1.png" /></a></li>
+        <li class="Clock"><canvas id="canvas" width="200" height="140" style="background-color:rgb(17, 19, 29)"></canvas></li>
+        <li class="Welcome"><%=Name %></li>
+        <%=SignInOut %>
+        <li class="Space"></li>
+    </ul>
+
+    <ul class="LinksNav Nav">
+        <li><a href="CPU.aspx"><div>CPU</div></a></li>
+        <li><a href="Motherboard.aspx"><div>Motherboard</div></a></li>
+        <li><a href="RAM.aspx"><div>RAM</div></a></li>
+        <li><a href="SSD.aspx"><div>SSD</div></a></li>
+        <li><a href="HDD.aspx"><div>HDD</div></a></li>
+        <li><a href="GPU.aspx"><div>GPU</div></a></li>
+        <li><a href="PSU.aspx"><div>PSU</div></a></li>
+        <li><a href="Fan.aspx"><div>Fan</div></a></li>
+        <li><a href="Case.aspx"><div>Case</div></a></li>
+        <li><a href="Compare.aspx"><div>Compare</div></a></li>
+        <li><a href="Build.aspx"><div>Build</div></a></li>
+    </ul>
+
+    <div style="padding-right: 1%; padding-left: 1%;">
+        <asp:ContentPlaceHolder ID="body" runat="server" />
+    </div>
+
+    <div class="PersonalInfo">Eitan Grimblat | 10'4 | 332203132 | <a href="mailto:eitangrimblat">eitangrimblat@gmail.com</a> | <a href="tel:+972545534522">0545534522</a> | Users: <%= Application["Users"] ?? "" %></div>
+    
+    <script src="../MainScript.js"></script>
+    <script src="../Clock.js"></script>
+</body>
+</html>

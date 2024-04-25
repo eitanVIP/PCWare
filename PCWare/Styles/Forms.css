@@ -1,0 +1,115 @@
+﻿.FormUl {
+    list-style-type: none;
+    width: 25%;
+}
+
+.FormUl li {
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=submit],
+input[type=number] {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid rgb(15, 109, 213);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.25s;
+    font-size: 1.5rem;
+    font-family: Fredoka;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(15, 109, 213);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    border: 3px solid black;
+    background-color: black;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(15, 109, 213);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    outline: none;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border: 3px solid black;
+    background-color: black;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid rgb(15, 109, 213);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.25s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+option {
+    background-color: rgb(10, 73, 142);
+    color: white;
+}
+
+input:hover {
+    border: 3px solid rgb(10, 73, 142);
+}
+
+input:hover::placeholder {
+    color: rgb(64, 64, 64);
+}
+
+input:focus {
+    border: 3px solid black;
+}
+
+input:focus::placeholder {
+    color: black;
+}
+
+#hobbiesList,
+#genderList {
+    margin-bottom: unset;
+    width: 1000px;
+}
