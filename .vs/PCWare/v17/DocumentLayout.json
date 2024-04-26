@@ -3,55 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\desktop\\projects\\programming#######\\web\\school\\pcware\\pcware\\pages\\datamanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\datamanagement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_EITAN_DESKTOP_PROJECTS_PROGRAMMING________WEB_SCHOOL_PCWARE_PCWARE_APP_DATA_PCWAREDB.MDF/True/SqlTable/dbo.UsersTBL.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\desktop\\projects\\programming#######\\web\\school\\pcware\\pcware\\pages\\updateprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\updateprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\desktop\\projects\\programming#######\\web\\school\\pcware\\pcware\\pages\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\desktop\\projects\\programming#######\\web\\school\\pcware\\pcware\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\game.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\game.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\game.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\clock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\clock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\styles\\topstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\styles\\topstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\compare.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\compare.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\compare.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\compare.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_EITAN_DESKTOP_PROJECTS_PROGRAMMING________WEB_SCHOOL_PCWARE_PCWARE_APP_DATA_PCWAREDB.MDF/True/SqlTable/dbo.CPUTBL.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\pcware\\pages\\mainpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\mainpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,155 +34,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.js",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Game.js",
-              "RelativeDocumentMoniker": "PCWare\\Game.js",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Game.js",
-              "RelativeToolTip": "PCWare\\Game.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-24T22:43:19.076Z",
+              "Title": "DataManagement.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\DataManagement.aspx.cs",
+              "RelativeDocumentMoniker": "PCWare\\Pages\\DataManagement.aspx.cs",
+              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\DataManagement.aspx.cs",
+              "RelativeToolTip": "PCWare\\Pages\\DataManagement.aspx.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAcwFoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:21:17.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Game.aspx",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Game.aspx",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\Game.aspx",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Game.aspx",
-              "RelativeToolTip": "PCWare\\Pages\\Game.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-24T22:39:01.056Z"
+              "Title": "dbo.UsersTBL [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_EITAN_DESKTOP_PROJECTS_PROGRAMMING________WEB_SCHOOL_PCWARE_PCWARE_APP_DATA_PCWAREDB.MDF/True/SqlTable/dbo.UsersTBL.sql",
+              "ToolTip": "dbo.UsersTBL [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-26T10:54:29.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Clock.js",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Clock.js",
-              "RelativeDocumentMoniker": "PCWare\\Clock.js",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Clock.js",
-              "RelativeToolTip": "PCWare\\Clock.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-24T22:53:48.622Z"
+              "Title": "UpdateProfile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx.cs",
+              "RelativeDocumentMoniker": "PCWare\\Pages\\UpdateProfile.aspx.cs",
+              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx.cs",
+              "RelativeToolTip": "PCWare\\Pages\\UpdateProfile.aspx.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAGUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:29:09.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Master.Master",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Master.Master",
-              "RelativeDocumentMoniker": "PCWare\\Master.Master",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Master.Master",
-              "RelativeToolTip": "PCWare\\Master.Master",
+              "Title": "UpdateProfile.aspx",
+              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx",
+              "RelativeDocumentMoniker": "PCWare\\Pages\\UpdateProfile.aspx",
+              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx",
+              "RelativeToolTip": "PCWare\\Pages\\UpdateProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-24T20:56:33.842Z"
+              "WhenOpened": "2024-04-26T10:28:59.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TopStyle.css",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Styles\\TopStyle.css",
-              "RelativeDocumentMoniker": "PCWare\\Styles\\TopStyle.css",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Styles\\TopStyle.css",
-              "RelativeToolTip": "PCWare\\Styles\\TopStyle.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-24T16:05:19.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Global.asax.cs",
-              "RelativeDocumentMoniker": "PCWare\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Global.asax.cs",
-              "RelativeToolTip": "PCWare\\Global.asax.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:56:22.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SignIn.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignIn.aspx.cs",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\SignIn.aspx.cs",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignIn.aspx.cs",
-              "RelativeToolTip": "PCWare\\Pages\\SignIn.aspx.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:55:12.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignIn.aspx",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignIn.aspx",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\SignIn.aspx",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignIn.aspx",
-              "RelativeToolTip": "PCWare\\Pages\\SignIn.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-24T20:54:54.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "dbo.CPUTBL [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_EITAN_DESKTOP_PROJECTS_PROGRAMMING________WEB_SCHOOL_PCWARE_PCWARE_APP_DATA_PCWAREDB.MDF/True/SqlTable/dbo.CPUTBL.sql",
-              "ToolTip": "dbo.CPUTBL [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-24T20:29:53.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignUp.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignUp.aspx.cs",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\SignUp.aspx.cs",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\SignUp.aspx.cs",
-              "RelativeToolTip": "PCWare\\Pages\\SignUp.aspx.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAUwF4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:46:17.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Compare.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Compare.aspx.cs",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\Compare.aspx.cs",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Compare.aspx.cs",
-              "RelativeToolTip": "PCWare\\Pages\\Compare.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:43:32.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Compare.aspx",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Compare.aspx",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\Compare.aspx",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\Compare.aspx",
-              "RelativeToolTip": "PCWare\\Pages\\Compare.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-24T15:43:26.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainPage.aspx",
-              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\MainPage.aspx",
-              "RelativeDocumentMoniker": "PCWare\\Pages\\MainPage.aspx",
-              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Pages\\MainPage.aspx",
-              "RelativeToolTip": "PCWare\\Pages\\MainPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-24T18:40:19.466Z"
+              "Title": "Game.js",
+              "DocumentMoniker": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Game.js",
+              "RelativeDocumentMoniker": "PCWare\\Game.js",
+              "ToolTip": "C:\\Users\\eitan\\Desktop\\Projects\\Programming#######\\Web\\School\\PCWare\\PCWare\\Game.js",
+              "RelativeToolTip": "PCWare\\Game.js",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-24T22:43:19.076Z",
+              "EditorCaption": ""
             }
           ]
         }

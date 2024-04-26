@@ -26,6 +26,9 @@ namespace PCWare.Pages
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Delete();
+            Admin();
+
             if (Session["admin"] == null)
             {
                 msg = $"<a href=\"SignIn.aspx\" style=\"font-size: 3rem;\" class=\"center\">Sign In!</a>";
@@ -37,8 +40,6 @@ namespace PCWare.Pages
                 msg = $"<b class=\"center\" style=\"font-size: 3rem; color: red;\">Access Denied!</b>";
                 return;
             }
-
-            Delete();
 
             UsersQuery = "select * from UsersTBL";
             DataTable table = Helper.ExecuteDataTable("Banana ba tachat", UsersQuery);
@@ -66,6 +67,7 @@ namespace PCWare.Pages
                 result += $"<th>{table.Columns[k].ColumnName}</th>";
 
             result += "<th>Delete</th>" +
+                "<th>Admin</th>" +
                 "</tr>";
 
             for (int i = 0; i < table.Rows.Count; i++)
@@ -75,7 +77,9 @@ namespace PCWare.Pages
                 for (int j = 0; j < table.Rows[i].ItemArray.Length; j++)
                     result += $"<td>{table.Rows[i][j]}</td>";
                 
-                result += $"<td><input type=\"submit\" name=\"delete{table.Rows[i]["Id"]}\" value=\"Delete\" /></td>" +
+                result += $"<td><input type=\"submit\" name=\"delete{table.Rows[i]["Id"]}\" value=\"Delete\" /></td>";
+
+                result += $"<td><input type=\"submit\" name=\"admin{table.Rows[i]["Id"]}\" value=\"Admin\" /></td>" +
                     $"</tr>";
             }
 
@@ -100,6 +104,37 @@ namespace PCWare.Pages
 
                     query = $"delete from BuildsTBL where Id = {id}";
                     Helper.DoQuery("Banana ba tachat", query);
+
+                    if ((int)Session["Id"] == id)
+                    {
+                        Session.Abandon();
+                        Response.Redirect($"{Request.UrlReferrer.Segments[Request.UrlReferrer.Segments.Length - 1]}.aspx");
+                    }
+                }
+            }
+        }
+
+        void Admin()
+        {
+            string query = "select * from UsersTBL";
+            DataTable table = Helper.ExecuteDataTable("Banana ba tachat", query);
+
+            for (int i = 0; i < table.Rows.Count; i++)
+            {
+                int id = (int)table.Rows[i]["Id"];
+
+                if (Request.Form[$"admin{id}"] != null)
+                {
+                    query = $"select * from UsersTBL where Id = {id}";
+                    table = Helper.ExecuteDataTable("Banana ba tachat", query);
+
+                    int admin = (bool)table.Rows[0]["admin"] ? 0 : 1;
+
+                    query = $"update UsersTBL set admin = {admin} where Id = {id}";
+                    Helper.DoQuery("Banana ba tachat", query);
+
+                    if ((int)Session["Id"] == id)
+                        Session["admin"] = admin == 1;
                 }
             }
         }
