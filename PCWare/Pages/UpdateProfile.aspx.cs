@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -69,7 +70,17 @@ namespace PCWare.Pages
 
                 string Hobbies = hob1 + hob2 + hob3 + hob4 + hob5;
 
-                query = $"update UsersTBL set " +
+                query = $"select * from UsersTBL where uname = '{uname}' and Id != {Session["Id"]}";
+                DataTable table = Helper.ExecuteDataTable("PCWareDB.mdf", query);
+
+                if (table.Rows.Count > 0)
+                {
+                    string style = $"{'"'}color: red; font-size: 3rem;{'"'}";
+                    query = $"<b style={style}>Username Already Taken!</b>";
+                }
+                else
+                {
+                    query = $"update UsersTBL set " +
                     $"uname = '{uname}'," +
                     $" fname = '{fname}'," +
                     $" lname = '{lname}'," +
@@ -81,50 +92,46 @@ namespace PCWare.Pages
                     $" phone = {phone}," +
                     $" pw = '{pw}'" +
                     $" where Id = {Session["Id"]}";
-                Helper.DoQuery("PCWareDB.mdf", query);
+                    Helper.DoQuery("PCWareDB.mdf", query);
 
-                Session["uname"] = uname;
-                Session["fname"] = fname;
-                Session["lname"] = lname;
-                Session["bday"] = bday;
-                Session["gender"] = gender;
-                Session["hobbies"] = hobbies;
-                Session["city"] = city;
-                Session["email"] = email;
-                Session["phone"] = phone;
-                Session["pw"] = pw;
-                Response.Redirect("MainPage.aspx");
-
-                return;
+                    Session["uname"] = uname;
+                    Session["fname"] = fname;
+                    Session["lname"] = lname;
+                    Session["bday"] = bday;
+                    Session["gender"] = gender;
+                    Session["hobbies"] = hobbies;
+                    Session["city"] = city;
+                    Session["email"] = email;
+                    Session["phone"] = phone;
+                    Session["pw"] = pw;
+                    Response.Redirect("MainPage.aspx");
+                }
             }
 
-            string Query = $"select * from UsersTBL where Id = {Session["Id"]}";
-            DataTable table = Helper.ExecuteDataTable("Sigma", Query);
+            uname = (string)Session["uname"];
+            fname = (string)Session["fname"];
+            lname = (string)Session["lname"];
+            bday  = (int)   Session ["bday"];
+            email = (string)Session["email"];
+            phone = (string)Session["phone"];
+            pw    = (string)Session   ["pw"];
 
-            uname = (string)table.Rows[0]["uname"];
-            fname = (string)table.Rows[0]["fname"];
-            lname = (string)table.Rows[0]["lname"];
-            bday  = (int)   table.Rows[0] ["bday"];
-            email = (string)table.Rows[0]["email"];
-            phone = (string)table.Rows[0]["phone"];
-            pw    = (string)table.Rows[0]   ["pw"];
-
-            if (table.Rows[0]["gender"].Equals("Male"))
+            if (Session["gender"].Equals("Male"))
                 Male = "checked";
             else
                 Female = "checked";
 
-            H0 = table.Rows[0]["hobbies"].ToString()[0] == 't' ? "checked" : "";
-            H1 = table.Rows[0]["hobbies"].ToString()[1] == 't' ? "checked" : "";
-            H2 = table.Rows[0]["hobbies"].ToString()[2] == 't' ? "checked" : "";
-            H3 = table.Rows[0]["hobbies"].ToString()[3] == 't' ? "checked" : "";
-            H4 = table.Rows[0]["hobbies"].ToString()[4] == 't' ? "checked" : "";
+            H0 = Session["hobbies"].ToString()[0] == 't' ? "checked" : "";
+            H1 = Session["hobbies"].ToString()[1] == 't' ? "checked" : "";
+            H2 = Session["hobbies"].ToString()[2] == 't' ? "checked" : "";
+            H3 = Session["hobbies"].ToString()[3] == 't' ? "checked" : "";
+            H4 = Session["hobbies"].ToString()[4] == 't' ? "checked" : "";
 
-            Hadera     = table.Rows[0]["city"].ToString() == "Hadera"      ? "selected" : "";
-            TelAviv    = table.Rows[0]["city"].ToString() == "Tel Aviv"    ? "selected" : "";
-            Jerusalem  = table.Rows[0]["city"].ToString() == "Jerusalem"   ? "selected" : "";
-            PetahTikva = table.Rows[0]["city"].ToString() == "Petah Tikva" ? "selected" : "";
-            Eilat      = table.Rows[0]["city"].ToString() == "Eilat"       ? "selected" : "";
+            Hadera     = Session["city"].ToString() == "Hadera"      ? "selected" : "";
+            TelAviv    = Session["city"].ToString() == "Tel Aviv"    ? "selected" : "";
+            Jerusalem  = Session["city"].ToString() == "Jerusalem"   ? "selected" : "";
+            PetahTikva = Session["city"].ToString() == "Petah Tikva" ? "selected" : "";
+            Eilat      = Session["city"].ToString() == "Eilat"       ? "selected" : "";
         }
     }
 }

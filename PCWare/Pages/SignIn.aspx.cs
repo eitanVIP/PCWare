@@ -46,7 +46,7 @@ namespace PCWare.Pages
                 Session["hobbies"] = table.Rows[0]["hobbies"];
                 Session["city"] = table.Rows[0]["city"];
                 Session["email"] = table.Rows[0]["email"];
-                Session["tel"] = table.Rows[0]["phone"];
+                Session["phone"] = table.Rows[0]["phone"];
                 Session["pw"] = table.Rows[0]["pw"];
                 Session["admin"] = table.Rows[0]["admin"];
 
