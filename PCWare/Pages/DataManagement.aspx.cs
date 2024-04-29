@@ -42,19 +42,19 @@ namespace PCWare.Pages
             }
 
             UsersQuery = "select * from UsersTBL";
-            DataTable table = Helper.ExecuteDataTable("Banana ba tachat", UsersQuery);
+            DataTable table = Helper.ExecuteDataTable("", UsersQuery);
             UsersTable = CreateTable(table);
 
             BuildsQuery = "select * from BuildsTBL";
-            table = Helper.ExecuteDataTable("Banana ba tachat", BuildsQuery);
+            table = Helper.ExecuteDataTable("", BuildsQuery);
             BuildsTable = CreateTable(table);
 
             Query1 = "select * from UsersTBL where city = 'Hadera'";
-            table = Helper.ExecuteDataTable("Banana ba tachat", Query1);
+            table = Helper.ExecuteDataTable("", Query1);
             Query1Table = CreateTable(table);
 
             Query2 = "select * from UsersTBL where (bday between 1997 and 2011) and gender = 'Male'";
-            table = Helper.ExecuteDataTable("Banana ba tachat", Query2);
+            table = Helper.ExecuteDataTable("", Query2);
             Query2Table = CreateTable(table);
         }
 
@@ -91,7 +91,7 @@ namespace PCWare.Pages
         void Delete()
         {
             string query = "select * from UsersTBL";
-            DataTable table = Helper.ExecuteDataTable("Banana ba tachat", query);
+            DataTable table = Helper.ExecuteDataTable("", query);
 
             for (int i = 0; i < table.Rows.Count; i++)
             {
@@ -100,10 +100,10 @@ namespace PCWare.Pages
                 if (Request.Form[$"delete{id}"] != null)
                 {
                     query = $"delete from UsersTBL where Id = {id}";
-                    Helper.DoQuery("Banana ba tachat", query);
+                    Helper.DoQuery("", query);
 
                     query = $"delete from BuildsTBL where Id = {id}";
-                    Helper.DoQuery("Banana ba tachat", query);
+                    Helper.DoQuery("", query);
 
                     if ((int)Session["Id"] == id)
                     {
@@ -117,7 +117,7 @@ namespace PCWare.Pages
         void Admin()
         {
             string query = "select * from UsersTBL";
-            DataTable table = Helper.ExecuteDataTable("Banana ba tachat", query);
+            DataTable table = Helper.ExecuteDataTable("", query);
 
             for (int i = 0; i < table.Rows.Count; i++)
             {
@@ -126,12 +126,12 @@ namespace PCWare.Pages
                 if (Request.Form[$"admin{id}"] != null)
                 {
                     query = $"select * from UsersTBL where Id = {id}";
-                    table = Helper.ExecuteDataTable("Banana ba tachat", query);
+                    table = Helper.ExecuteDataTable("", query);
 
                     int admin = (bool)table.Rows[0]["admin"] ? 0 : 1;
 
                     query = $"update UsersTBL set admin = {admin} where Id = {id}";
-                    Helper.DoQuery("Banana ba tachat", query);
+                    Helper.DoQuery("", query);
 
                     if ((int)Session["Id"] == id)
                         Session["admin"] = admin == 1;

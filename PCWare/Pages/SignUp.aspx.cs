@@ -56,7 +56,12 @@ namespace PCWare.Pages
 
             DataRowCollection rows = Helper.ExecuteDataTable("PCWareDB.mdf", "select * from usersTBL").Rows;
             int id = (int)rows[rows.Count - 1]["Id"] + 1;
-            query = $"insert into UsersTBL (Id, uname, fname, lname, bday, gender, hobbies, city, email, phone, pw, admin) values ({id}, '{uname}', '{fname}', '{lname}', {bday}, '{gender}', '{Hobbies}', '{city}', '{email}', '{phone}', '{pw}', 0)";
+            query = $"insert into UsersTBL" +
+                $" (Id, uname, fname, lname, bday, gender, hobbies," +
+                $" city, email, phone, pw, admin) values" +
+                $" ({id}, '{uname}', '{fname}', '{lname}', {bday}," +
+                $" '{gender}', '{Hobbies}', '{city}', '{email}'," +
+                $" '{phone}', '{pw}', 0)";
             Helper.DoQuery("PCWareDB.mdf", query);
             
             Session["id"] = id;

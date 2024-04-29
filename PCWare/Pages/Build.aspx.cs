@@ -38,31 +38,31 @@ namespace PCWare.Pages
                 if (tableBuilds.Rows.Count != 0)
                     msg = $"<b class=\"center\" style=\"font-size: 3rem; color: lawngreen;\">Your Build Loaded</b>";
 
-            string queryCPU = $"select * from CPUTBL order by PerformanceMark desc";
+            string queryCPU = $"select Name from CPUTBL order by PerformanceMark desc";
             DataTable tableCPU = Helper.ExecuteDataTable("PCWare.mdf", queryCPU);
 
-            string queryMotherboard = $"select * from MotherboardTBL order by Price desc";
+            string queryMotherboard = $"select Name from MotherboardTBL order by Price desc";
             DataTable tableMotherboard = Helper.ExecuteDataTable("PCWare.mdf", queryMotherboard);
 
-            string queryRAM = $"select * from RAMTBL order by Volume desc";
+            string queryRAM = $"select Name from RAMTBL order by Volume desc";
             DataTable tableRAM = Helper.ExecuteDataTable("PCWare.mdf", queryRAM);
 
-            string querySSD = $"select * from SSDTBL order by Volume desc";
+            string querySSD = $"select Name from SSDTBL order by Volume desc";
             DataTable tableSSD = Helper.ExecuteDataTable("PCWare.mdf", querySSD);
 
-            string queryHDD = $"select * from HDDTBL order by Volume desc";
+            string queryHDD = $"select Name from HDDTBL order by Volume desc";
             DataTable tableHDD = Helper.ExecuteDataTable("PCWare.mdf", queryHDD);
 
-            string queryGPU = $"select * from GPUTBL order by PerformanceMark desc";
+            string queryGPU = $"select Name from GPUTBL order by PerformanceMark desc";
             DataTable tableGPU = Helper.ExecuteDataTable("PCWare.mdf", queryGPU);
 
-            string queryPSU = $"select * from PSUTBL order by Watt desc";
+            string queryPSU = $"select Name from PSUTBL order by Watt desc";
             DataTable tablePSU = Helper.ExecuteDataTable("PCWare.mdf", queryPSU);
 
-            string queryFan = $"select * from FanTBL order by Price desc";
+            string queryFan = $"select Name from FanTBL order by Price desc";
             DataTable tableFan = Helper.ExecuteDataTable("PCWare.mdf", queryFan);
 
-            string queryPCCase = $"select * from PCCaseTBL order by Size desc";
+            string queryPCCase = $"select Name from PCCaseTBL order by Size desc";
             DataTable tablePCCase = Helper.ExecuteDataTable("PCWare.mdf", queryPCCase);
 
             Options = CreateOptions(tableCPU, "CPU", tableBuilds);
