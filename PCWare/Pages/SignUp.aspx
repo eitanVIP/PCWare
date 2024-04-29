@@ -6,8 +6,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <h1>Sign Up</h1>
-    <div class="center"><%=query %></div>
-
     <form class="center" method="post">
         <ul class="FormUl">
             <li>Username:</li>
@@ -48,7 +46,17 @@
             <li>Email:</li>
             <li><input type="email" name="email" placeholder="Enter email address" id="email" required /></li>
             <li>Phone Number:</li>
-            <li><input type="number" name="phone" placeholder="Enter phone number" id="tel" required /></li>
+            <li>
+                <select id="prefix" name="prefix" style="width: 20%;">
+                  <option value="050">050</option>
+                  <option value="052">052</option>
+                  <option value="053">053</option>
+                  <option value="054" selected>054</option>
+                  <option value="055">055</option>
+                  <option value="058">058</option>
+                </select>
+                <input style="width: 75%;" type="text" pattern="[0-9]{7}" title="7 digits after prefix" name="phone" placeholder="Enter phone number" id="tel" required />
+            </li>
             <li>Password:</li>
             <li><input type="password" name="pw" placeholder="Enter password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\d\s]).{8,50}$" title="Have capital and non capital English letters, numbers, punctuation and between 8-50 characters" id="pword" required /></li>
             <li>Confirm Password:</li>
@@ -56,5 +64,4 @@
             <li><input type="submit" name="submit" value="Sign Up" /></li>
         </ul>
     </form>
-    <%=formTable %>
 </asp:Content>

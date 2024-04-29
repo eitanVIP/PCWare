@@ -33,6 +33,12 @@ namespace PCWare.Pages
         public string Jerusalem  = "";
         public string PetahTikva = "";
         public string Eilat      = "";
+        public string Pre050     = "";
+        public string Pre052     = "";
+        public string Pre053     = "";
+        public string Pre054     = "";
+        public string Pre055     = "";
+        public string Pre058     = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -46,12 +52,11 @@ namespace PCWare.Pages
                 string lname = Request.Form["lname"];
                 string email = Request.Form["email"];
                 string gender = Request.Form["gender"];
-                string phone = Request.Form["phone"];
+                string phone = Request.Form["prefix"] + Request.Form["phone"];
                 string bday = Request.Form["bday"];
                 string hobbies = Request.Form["hobbies"];
                 string city = Request.Form["city"];
                 string pw = Request.Form["pw"];
-                string pwConfirm = Request.Form["pwConfirm"];
                 string hob1 = "f";
                 string hob2 = "f";
                 string hob3 = "f";
@@ -89,7 +94,7 @@ namespace PCWare.Pages
                     $" hobbies = '{Hobbies}'," +
                     $" city = '{city}'," +
                     $" email = '{email}'," +
-                    $" phone = {phone}," +
+                    $" phone = '{phone}'," +
                     $" pw = '{pw}'" +
                     $" where Id = {Session["Id"]}";
                     Helper.DoQuery("PCWareDB.mdf", query);
@@ -97,7 +102,7 @@ namespace PCWare.Pages
                     Session["uname"] = uname;
                     Session["fname"] = fname;
                     Session["lname"] = lname;
-                    Session["bday"] = bday;
+                    Session["bday"] = int.Parse(bday);
                     Session["gender"] = gender;
                     Session["hobbies"] = hobbies;
                     Session["city"] = city;
@@ -113,7 +118,7 @@ namespace PCWare.Pages
             lname = (string)Session["lname"];
             bday  = (int)   Session ["bday"];
             email = (string)Session["email"];
-            phone = (string)Session["phone"];
+            phone = ((string)Session["phone"]).Substring(3, 7);
             pw    = (string)Session   ["pw"];
 
             if (Session["gender"].Equals("Male"))
@@ -132,6 +137,14 @@ namespace PCWare.Pages
             Jerusalem  = Session["city"].ToString() == "Jerusalem"   ? "selected" : "";
             PetahTikva = Session["city"].ToString() == "Petah Tikva" ? "selected" : "";
             Eilat      = Session["city"].ToString() == "Eilat"       ? "selected" : "";
+            
+            string prefix = ((string)Session["phone"]).Substring(0, 3);
+            Pre050 = prefix.Equals("050") ? "selected" : "";
+            Pre052 = prefix.Equals("052") ? "selected" : "";
+            Pre053 = prefix.Equals("053") ? "selected" : "";
+            Pre054 = prefix.Equals("054") ? "selected" : "";
+            Pre055 = prefix.Equals("055") ? "selected" : "";
+            Pre058 = prefix.Equals("058") ? "selected" : "";
         }
     }
 }

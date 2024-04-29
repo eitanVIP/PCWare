@@ -11,9 +11,6 @@ namespace PCWare.Pages
 {
     public partial class SignUp : System.Web.UI.Page
     {
-        public string query = "";
-        public string formTable = "";
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Form["submit"] == null)
@@ -24,12 +21,11 @@ namespace PCWare.Pages
             string lname = Request.Form["lname"];
             string email = Request.Form["email"];
             string gender = Request.Form["gender"];
-            string phone = Request.Form["phone"];
+            string phone = Request.Form["prefix"] + Request.Form["phone"];
             string bday = Request.Form["bday"];
             string hobbies = Request.Form["hobbies"];
             string city = Request.Form["city"];
             string pw = Request.Form["pw"];
-            string pwConfirm = Request.Form["pwConfirm"];
             string hob1 = "f";
             string hob2 = "f";
             string hob3 = "f";
@@ -48,21 +44,7 @@ namespace PCWare.Pages
 
             string Hobbies = hob1 + hob2 + hob3 + hob4 + hob5;
 
-            formTable = "<table class=\"styledTable\" style=\"margin-left: auto; margin-right: auto;\">";
-            formTable += "<tr><td>uname:</td><td>" + uname + "</td></tr>";
-            formTable += "<tr><td>fname:</td><td>" + fname + "</td></tr>";
-            formTable += "<tr><td>lname:</td><td>" + lname + "</td></tr>";
-            formTable += "<tr><td>bday:</td><td>" + bday + "</td></tr>";
-            formTable += "<tr><td>gender:</td><td>" + gender + "</td></tr>";
-            formTable += "<tr><td>hobbies:</td><td>" + Hobbies + "</td></tr>";
-            formTable += "<tr><td>email:</td><td>" + email + "</td></tr>";
-            formTable += "<tr><td>phone:</td><td>" + phone + "</td></tr>";
-            formTable += "<tr><td>pw:</td><td>" + pw + "</td></tr>";
-            formTable += "<tr><td>pwConfirm:</td><td>" + pwConfirm + "</td></tr>";
-            formTable += "</table> <br />";
-            formTable = "";
-
-            query = $"select * from UsersTBL where uname = '{uname}'";
+            string query = $"select * from UsersTBL where uname = '{uname}'";
             DataTable table = Helper.ExecuteDataTable("PCWareDB.mdf", query);
 
             if(table.Rows.Count > 0)
@@ -81,9 +63,9 @@ namespace PCWare.Pages
             Session["uname"] = uname;
             Session["fname"] = fname;
             Session["lname"] = lname;
-            Session["bday"] = bday;
+            Session["bday"] = int.Parse(bday);
             Session["gender"] = gender;
-            Session["hobbies"] = hobbies;
+            Session["hobbies"] = Hobbies;
             Session["city"] = city;
             Session["email"] = email;
             Session["phone"] = phone;

@@ -48,7 +48,17 @@
             <li>Email:</li>
             <li><input value="<%=email %>" type="email" name="email" placeholder="Enter email address" id="email" required /></li>
             <li>Phone Number:</li>
-            <li><input value="<%=phone %>" type="number" name="phone" placeholder="Enter phone number" id="tel" required /></li>
+            <li>
+                <select id="prefix" name="prefix" style="width: 20%;">
+                  <option value="050" <%=Pre050 %>>050</option>
+                  <option value="052" <%=Pre052 %>>052</option>
+                  <option value="053" <%=Pre053 %>>053</option>
+                  <option value="054" <%=Pre054 %>>054</option>
+                  <option value="055" <%=Pre055 %>>055</option>
+                  <option value="058" <%=Pre058 %>>058</option>
+                </select>
+                <input value="<%=phone %>" style="width: 75%;" type="text" pattern="[0-9]{7}" title="7 digits after prefix" name="phone" placeholder="Enter phone number" id="tel" required />
+            </li>
             <li>Password:</li>
             <li><input value="<%=pw %>" type="password" name="pw" placeholder="Enter password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\d\s]).{8,50}$" title="Have capital and non capital English letters, numbers, punctuation and between 8-50 characters" id="pword" required /></li>
             <li>Confirm Password:</li>
