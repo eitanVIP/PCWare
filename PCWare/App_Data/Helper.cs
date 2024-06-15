@@ -20,7 +20,7 @@ public class Helper
 	public static SqlConnection ConnectToDb(string fileName)
 	{
 
-        string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\eitan\Desktop\Projects\Programming#######\Web\School\PCWare\PCWare\App_Data\PCWareDB.mdf;Integrated Security=True;Connect Timeout=30";
+        string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\eitan\Documents\Projects\Web\PCWare\PCWare\App_Data\PCWareDB.mdf;Integrated Security=True;Connect Timeout=30";
 
         SqlConnection conn = new SqlConnection(connString);
         return conn;
