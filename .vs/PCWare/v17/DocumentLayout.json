@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\documents\\projects\\web\\pcware\\pcware\\app_data\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\app_data\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\documents\\projects\\web\\pcware\\pcware\\pages\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\updateprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|c:\\users\\eitan\\documents\\projects\\web\\pcware\\pcware\\pages\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\pcware\\pages\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{FA328709-67D5-4E37-BDB5-2B83D4DC3F27}|PCWare\\PCWare.csproj|solutionrelative:pcware\\pages\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\PCWare\\App_Data\\Helper.cs",
-              "RelativeDocumentMoniker": "PCWare\\App_Data\\Helper.cs",
-              "ToolTip": "C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\PCWare\\App_Data\\Helper.cs",
-              "RelativeToolTip": "PCWare\\App_Data\\Helper.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAADHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:35:57.272Z",
+              "Title": "UpdateProfile.aspx",
+              "DocumentMoniker": "C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx",
+              "RelativeDocumentMoniker": "PCWare\\Pages\\UpdateProfile.aspx",
+              "ToolTip": "C:\\Users\\eitan\\Documents\\Projects\\Web\\PCWare\\PCWare\\Pages\\UpdateProfile.aspx",
+              "RelativeToolTip": "PCWare\\Pages\\UpdateProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T21:36:57.384Z",
               "EditorCaption": ""
             },
             {

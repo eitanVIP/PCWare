@@ -58,7 +58,7 @@
                 <input style="width: 75%;" type="text" pattern="[0-9]{7}" title="7 digits after prefix" name="phone" placeholder="Enter phone number" id="tel" required />
             </li>
             <li>Password:</li>
-            <li><input type="password" name="pw" placeholder="Enter password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\d\s]).{8,50}$" title="Have capital and non capital English letters, numbers, punctuation and between 8-50 characters" id="pword" required /></li>
+            <li><input type="password" name="pw" placeholder="Enter password" oninput="this.setCustomValidity(this.value !== document.getElementById('pwordCon').value ? 'Passwords do not match' : '');" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\d\s]).{8,50}$" title="Have capital and non capital English letters, numbers, punctuation and between 8-50 characters" id="pword" required /></li>
             <li>Confirm Password:</li>
             <li><input type="password" name="pwConfirm" placeholder="Confirm password" oninput="this.setCustomValidity(this.value !== document.getElementById('pword').value ? 'Passwords do not match' : '');" id="pwordCon" required /></li>
             <li><input type="submit" name="submit" value="Sign Up" /></li>
